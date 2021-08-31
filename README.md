@@ -30,3 +30,8 @@ or, to get the bin files
 ```
 arduino-cli compile -b esp32:esp32:esp32c3 --build-path $PWD/.cache/
 ```
+
+Upload (Windows)
+```
+..\arduino-cli.exe compile -b esp32:esp32:esp32c3 --build-path $PWD\.cache --upload --port COM5
+```
